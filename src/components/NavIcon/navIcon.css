@@ -1,0 +1,26 @@
+.smd__navIcon{
+    position:relative;
+    display:flex;
+    align-items: center;
+    gap:12px;
+    padding:12px 20px;
+    border-radius: 1rem;
+    overflow: hidden;
+    cursor:pointer;
+    transition: background-color .2s ease;
+}
+.smd__navIcon:hover{
+    background-color: rgba(255, 255, 255, 0.149);
+}
+h2{
+    font-size: 12px;
+    font-family: roboto;
+    font-weight: 300;
+    letter-spacing: .5px;
+}
+.smd__nav.active h2{
+    display:none;
+}
+.icon{
+    font-size: 20px;
+}

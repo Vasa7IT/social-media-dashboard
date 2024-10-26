@@ -1,0 +1,13 @@
+.smd__main {
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    flex:1;
+    background-color: #e4e4e4;
+    min-height: 100vh;
+    --dm-color:#111;
+}
+.smd__main.dark{
+    background-color:var(--dm-color);
+    color:white;
+}

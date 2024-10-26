@@ -1,0 +1,41 @@
+.analytics{
+    z-index:1;
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+}
+.analytics .analytics-header {
+    display: flex;
+    gap:2rem;
+    justify-content:center;
+    font-weight: bold;
+  }
+  
+  .analytics .analytics-header .followers {
+    color: #00464e;
+    font-size: 15px;
+  }
+  .analytics .analytics-header .earnings {
+    color: #810551;
+    font-size: 15px;
+  }
+  .analytics .title {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+  }
+  .analytics .value {
+    font-size: 18px;
+    color: rgb(254, 7, 7);
+  }
+  .analytics .extra-text {
+    color: rgb(95, 95, 95);
+    text-align: center;
+  }
+  
+  .analytics .illustration {
+    height: 150px;
+    margin: 8px 0 0;
+  }
